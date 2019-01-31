@@ -8,11 +8,11 @@ import { Quote } from './quote';
 })
 export class AppComponent {
   quotes = [
-    new Quote(1,'watch movie','jurrasic world',new Date(2019,1,7)),
-    new Quote(1,'trick us','thick twice beauty',new Date(2019,1,7)),
-    new Quote(1,'romain','do you remember',new Date(2019,1,7)),
-    new Quote(1,'coco','rocky rock on',new Date(2019,1,7)),
-    new Quote(1,'chapman','always top',new Date(2019,1,7)),
+    new Quote('nesh','watch movie','jurrasic world',new Date(2019,1,7)),
+    new Quote('king','trick us','thick twice beauty',new Date(2019,1,7)),
+    new Quote('batman','romain','do you remember',new Date(2019,1,7)),
+    new Quote('krol','coco','rocky rock on',new Date(2019,1,7)),
+    new Quote('krol','chapman','always top',new Date(2019,1,7)),
 
   ]
 

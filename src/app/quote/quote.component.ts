@@ -32,13 +32,13 @@ toogleDetails(index){
 
 
 
-// addNewQuote(quote){
-//   let goalLength = this.quotes.length;
-//   quote.id=goalLength+1;
-//   // quote.completeDate = new Date(quote.completeDate)
-//   this.quotes.push(quote)
+addNewQuote(quote){
+  let goalLength = this.quotes.length;
+  quote.id=goalLength+1;
+  // quote.completeDate = new Date(quote.completeDate)
+  this.quotes.push(quote)
 
-// }
+}
 
   constructor() { }
 

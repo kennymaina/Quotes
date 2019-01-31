@@ -9,14 +9,14 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-  quotes = [
-        new Quote(1,'watch movie','jurrasic world',new Date(2019,1,7)),
-        new Quote(1,'trick us','thick twice beauty',new Date(2019,1,7)),
-        new Quote(1,'romain','do you remember',new Date(2019,1,7)),
-        new Quote(1,'coco','rocky rock on',new Date(2019,1,7)),
-        new Quote(1,'chapman','always top',new Date(2019,1,7)),
+//   quotes = [
+//         new Quote(1,'watch movie','jurrasic world',new Date(2019,1,7)),
+//         new Quote(1,'trick us','thick twice beauty',new Date(2019,1,7)),
+//         new Quote(1,'romain','do you remember',new Date(2019,1,7)),
+//         new Quote(1,'coco','rocky rock on',new Date(2019,1,7)),
+//         new Quote(1,'chapman','always top',new Date(2019,1,7)),
 
-]
+// ]
 
 
 deleteQuote(isComplete,index){

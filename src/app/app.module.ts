@@ -11,6 +11,7 @@ import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { from } from 'rxjs';
+import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { from } from 'rxjs';
     QuoteDetailsComponent,
     HighlightDirective,
     DateCountPipe,
-    QuoteFormComponent
+    QuoteFormComponent,
+    QuoteVoteComponent
   ],
   imports: [
     BrowserModule,

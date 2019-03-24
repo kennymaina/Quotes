@@ -1,15 +1,14 @@
-import { Directive,ElementRef,HostListener} from '@angular/core';
+import { Directive, ElementRef, HostListener } from '@angular/core';
 
 @Directive({
   selector: '[appHighlight]'
 })
 export class HighlightDirective {
 
-    
   constructor(private elem:ElementRef){}
 
   @HostListener("click") onClicks(){
-    this.textDeco("action")
+    this.textDeco("line-through")
   }
 
   @HostListener("dblclick") onDoubleClicks(){
@@ -21,3 +20,4 @@ export class HighlightDirective {
 
   }
 }
+

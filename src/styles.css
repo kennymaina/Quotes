@@ -1,2 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 10px;
+  }
+
+h1{
+  color: blue;
+  font-style: oblique;
+  font-size: 120px;
+  text-align: center;
+}
+.jumbotron{
+  background-color: black;
+}
+
+div.container{
+    background-color: yellowgreen;
+}
